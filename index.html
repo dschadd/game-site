@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Dungeon Test</title>
+    <title>Desolate Dungeon</title>
   </head>
   <body background="./images/dungeon.gif">  
     <div class="top-bar">
@@ -13,7 +13,7 @@
         <img src='./images/email.gif'>
         <!-- TODO -->
         <!-- Add email functionality -->
-      </div>  
+      </div>
     </div>
 
     <div class="blood-bar">
@@ -24,17 +24,26 @@
       <img src="./images/enter_if_you_dare.gif">
     </div>
 
-    <!-- TODO -->
-    <!-- Add game to site -->
-    <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FmumxMN25sQSwDoAa0t6Aictti3N2%2Fcontent%2Fb3cb5bbc-d523-75dc-2d3c-545e49a54544&imagePath=screens/0.png" style="width:960px;height:600px;border:0"></iframe>
+    <div class="game">
+      <center>
+        <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FmumxMN25sQSwDoAa0t6Aictti3N2%2Fcontent%2Fb3cb5bbc-d523-75dc-2d3c-545e49a54544&imagePath=screens/0.png" style="width:960px;height:600px;border:0"></iframe>
+      </center>
+    </div>
 
+    <div class="author-lead-in">
+      <center>
+        <img src='./images/meet-dev.gif'>
+      </center>
+    </div>
 
     <div class="authors">
-      <img src='./images/dschadd.png' id="dschadd">
-      <!-- TODO -->
-      <!-- Add other headshots -->
-      <!-- Link headshots to Linkedin -->
-      <!-- Add name -->
+        <center>
+        <img src='./images/dschadd.png'>
+        <img src='./images/jkendrick.png'>
+        <img src='./images/cwhite.jpeg'>
+        <img src='./images/tzampa.jpeg'>
+        <img src='./images/ddimperio.jpeg'>
+        </center>
     </div>
 
 <!-- TODO -->
@@ -65,13 +74,15 @@ body {
   top: 0;
   right: 0;
 }
-.authors img { 
-  /* Need to center a row of headshots
-  width: 100%;
-  margin: auto;
-  */
-  border-radius: 50%;
-  width: 180px;
-  height: auto;
+.game {
+  padding-bottom: 75px;
+}
+.author-lead-in {
+  color: red;
+}
+.authors img {
+  border-radius: 100%;
+  width: auto;
+  height: 180px;
 }
 </style>
